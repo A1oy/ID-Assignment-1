@@ -1,0 +1,92 @@
+*, body{font-family: 'Red Hat Mono', monospace;}
+*, footer{align-self: center;}
+
+.head{
+  color: black;
+  font-size: 50px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.n{
+  color:black;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+p{
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  max-width: 500px;
+}
+
+.achievementBox{
+  background-color:rgb(255, 255, 255);
+  margin: 2%;
+  padding: 7%;
+  height: 30%;
+  width: 30%;
+  display: flex;
+}
+
+.projectBox{
+  background-color:rgb(255, 255, 255);
+  margin: 2%;
+  padding: 7%;
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bioArea{
+  color: black;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 236, 213);
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flexArea{
+  color: black;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 236, 213);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.picture {
+	width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.DPPic{
+  position:relative;
+  width: 60%;
+  height: 60%;
+}
+
+.PRGPic{
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.project{
+  flex-direction: column-reverse;
+  display: flex;
+  font-size: 1.5vw;
+  width: 30%;
+  height: auto;
+}
+
+.main {
+	text-align: center;
+  flex-wrap: wrap;
+}
